@@ -1,8 +1,9 @@
 # likelion_hackathon_T2
-구글문서링크:
+#구글문서링크:
 https://docs.google.com/document/d/1QpU1XHRp0wUR-evlQpbDlNEwmCWH9Bup0uT8Mywlakw/edit?usp=sharing
-깃허브 업로드방법 참고
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/fb625779-1f8b-4cba-9e73-f7e8d314ce95/Untitled.png)
+
+#깃허브 업로드방법 참고
+https://victorydntmd.tistory.com/91
 
 #참고화면
 ![image](https://github.com/GaeunB/likelion_hackathon_T2/assets/115343409/1124c890-1a46-4a8d-9bbe-4c7e7af46f62)
