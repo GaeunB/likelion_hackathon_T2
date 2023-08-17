@@ -5,6 +5,9 @@ const Cart = () => {
   const navigate = useNavigate()
   const [total, setTotal] = useState(0)
   const carts = JSON.parse(localStorage.getItem('cart')) || []
+  const payPage = () => {
+    window.location.href = '/pay';
+  };
 
   useEffect(() => {
     const total = carts.reduce((acc, item) => {
@@ -96,7 +99,7 @@ const Cart = () => {
         <div id="summary" className="w-1/4 px-8 py-10">
           <h1 className="font-semibold text-2xl border-b pb-8"></h1>
           <div className="flex justify-between mt-80 mb-80">
-            <button className="bg-pink-300 font-semibold hover:bg-pink-800 py-3 text-3xl text-white uppercase w-full">결제하기</button>
+            <button className="bg-pink-300 font-semibold hover:bg-pink-800 py-3 text-3xl text-white uppercase w-full" onClick={payPage}>결제하기</button>
           </div>
         </div>
 
