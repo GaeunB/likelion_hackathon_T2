@@ -1,6 +1,11 @@
 import React from "react";
  import * as Components from '../login/Components';
+import { useNavigate } from "react-router-dom";
 const Login = () => {
+    const navigate = useNavigate()
+    const productpage = () => {
+        navigate('/Product')
+    }
      const [signIn, toggle] = React.useState(true);
       return(
         <div className="container mx-auto flex flex-wrap p-5 flex-col items-center">
@@ -21,7 +26,7 @@ const Login = () => {
                        <Components.Title className="text-4xl">로그인하세요</Components.Title>
                        <Components.Input type='phone-number' placeholder='전화번호' />
                        <Components.Input type='password' placeholder='비밀번호' />
-                       <Components.Button>로그인하기</Components.Button>
+                       <Components.Button onClick={() => productpage()}>로그인하기</Components.Button>
                    </Components.Form>
               </Components.SignInContainer>
 
