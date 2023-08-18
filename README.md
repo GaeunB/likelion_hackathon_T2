@@ -1,4 +1,8 @@
 # likelion_hackathon_T2
+
+#노션링크:
+https://jungle-crane-580.notion.site/7fc6146dddb4483795c1fe7dc41991f6?pvs=4
+
 #구글문서링크:
 https://docs.google.com/document/d/1QpU1XHRp0wUR-evlQpbDlNEwmCWH9Bup0uT8Mywlakw/edit?usp=sharing
 
